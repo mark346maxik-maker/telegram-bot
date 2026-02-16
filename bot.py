@@ -34,7 +34,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # ========== СИСТЕМА ДОСТУПА ==========
-ALLOWED_USERS = [1948172415,878048905]  # 🔹 Ваш ID
+ALLOWED_USERS = [1948172415,878048905,751640039]  # 🔹 Ваш ID
 
 def check_access(user_id):
     return user_id in ALLOWED_USERS
